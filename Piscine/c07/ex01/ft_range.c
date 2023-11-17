@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
 #include <stdlib.h>
 
 int	ft_vef(int n)
@@ -41,22 +40,3 @@ int	*ft_range(int min, int max)
 	}
 	return (ptr);
 }
-/*
-int	main(void)
-{
-	int	min;
-	int	max;
-	int	size;
-	int	i;
-	int	*range;
-	i = 0;
-	min = 1;
-	max = 10;
-	size = ft_abs(max - min);
-	range = ft_range(min, max);
-	while (i < size)
-	{
-		printf("%d",range[i]);
-		i++;
-	}
-}*/
